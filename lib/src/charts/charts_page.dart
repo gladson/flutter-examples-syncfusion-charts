@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_chart_syncfusion/src/home/home_module.dart';
-
 import 'package:flutter_chart_syncfusion/src/charts/list_charts/chart_cartesian.dart';
 import 'package:flutter_chart_syncfusion/src/charts/list_charts/chart_cartesian_bar.dart';
 import 'package:flutter_chart_syncfusion/src/charts/list_charts/chart_cartesian_bubble.dart';
@@ -25,18 +23,6 @@ class _ChartsPageState extends State<ChartsPage> {
       appBar: AppBar(
         title: Text("Exemplos de Gráficos"),
         automaticallyImplyLeading: false,
-        leading: IconButton(
-          icon: Icon(
-            Icons.arrow_back
-          ),
-          onPressed: () {
-            Navigator.of(context).push(
-              MaterialPageRoute(
-                builder: (BuildContext context) => HomeModule()
-              )
-            );
-          },
-        ),
       ),
       body: Container(
         child: SingleChildScrollView(
