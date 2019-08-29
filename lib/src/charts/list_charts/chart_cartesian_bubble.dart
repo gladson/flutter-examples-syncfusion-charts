@@ -99,10 +99,12 @@ class CartesianChartBubblePageState extends State<CartesianChartBubblePage> {
                     xValueMapper: (TendenciasData tendencias, _) => tendencias.mes,
                     yValueMapper: (TendenciasData tendencias, _) => tendencias.vendas,
                     markerSettings: MarkerSettings(
-                      //imageUrl: 'assets/images/ghost.png',
+                      imageUrl: 'assets/images/ghost.png',
                       isVisible: true,
-                      //height: 10, width: 10,
-                      shape: DataMarkerType.pentagon
+                      height: 10, 
+                      width: 10,
+                      shape: DataMarkerType.image
+                      //shape: DataMarkerType.pentagon
                     ),
                     // opacity: 0.8,
                     // width: 0.6,
