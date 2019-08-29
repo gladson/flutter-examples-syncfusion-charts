@@ -7,7 +7,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  syncfusion_flutter_charts: ^1.0.0-beta.3
+  syncfusion_flutter_charts: ^1.0.0-beta.4
   dio: ^2.1.13
   rxdart: ^0.22.1+1
   bloc_pattern: ^2.2.3
@@ -24,3 +24,6 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
+  assets:
+    - assets/images/ghost.png
